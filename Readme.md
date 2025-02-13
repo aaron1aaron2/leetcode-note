@@ -1,6 +1,10 @@
 # leetcode practise
-![image](https://github.com/user-attachments/assets/363fb1fd-d5e0-49fb-af63-161e396cade5)
-_image from https://neetcode.io/roadmap_
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/363fb1fd-d5e0-49fb-af63-161e396cade5" alt="Alt Text" style="width:70%; height:auto;">
+</p>
+
+_roadmap from https://neetcode.io/roadmap_
 
 ## Daily
 - ★ 2342 - Max Sum of a Pair With Equal Sum of Digits [[code](./code/2342-3.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.py)] [[link](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)]
