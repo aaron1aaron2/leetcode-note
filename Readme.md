@@ -7,7 +7,7 @@
 _roadmap from https://neetcode.io/roadmap_
 
 ## Daily
-- 𓏲 1352. Product of the Last K Numbers [[code](./code/)] [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
+- 𓏲 1352. Product of the Last K Numbers [[code](./code/1352-2.%20Product%20of%20the%20Last%20K%20Numbers.py)] [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
   - `Medium`、`O(nlogm)`
   - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
 
