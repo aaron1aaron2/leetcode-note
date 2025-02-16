@@ -22,7 +22,17 @@ _roadmap from https://neetcode.io/roadmap_
 - 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray [[code](./code/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py)] [[link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)]
   - `Easy`、`O(1)`
   - Tags: `Array`
-  
+
+## TO-DO
+---
+- 2698 - Find the Punishment Number of an Integer [code] [[link](https://leetcode.com/problems/find-the-punishment-number-of-an-integer)]
+  - `Medium`、`Daily`
+  - `Math`、`Backtracking`
+
+- 1718 - Construct the Lexicographically Largest Valid Sequence [code] [[link](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence)]
+  - `Medium`、`Daily`
+  - `Array`、`Backtracking`
+
 ## neetcode150
 ### Arrays & Hashing
 
