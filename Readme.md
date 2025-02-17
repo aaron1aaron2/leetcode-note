@@ -7,10 +7,12 @@
 _roadmap from https://neetcode.io/roadmap_
 
 ## Daily
-- 𓏲 1352. Product of the Last K Numbers [[code](./code/1352-2.%20Product%20of%20the%20Last%20K%20Numbers.py)] [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
-  - `Medium`、`O(nlogm)`
-  - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
+### Basic 
+- 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray [[code](./code/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py)] [[link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)]
+  - `Easy`、`O(1)`
+  - Tags: `Array`
 
+### Heap / Priority Queue
 - ★ 2342 - Max Sum of a Pair With Equal Sum of Digits [[code](./code/2342-3.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.py)] [[link](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)]
   - `Medium`、` implement both GetProduct and Add to work in O(1) time complexity`
   - Tags: `Array`、`Hash Table`、`Sorting`、`Heap (Priority Queue)`
@@ -19,9 +21,11 @@ _roadmap from https://neetcode.io/roadmap_
   - `Medium`、`O(nlogm)` 
   - Tags: `Array`、`Heap (Priority Queue)`、`Simulation`
 
-- 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray [[code](./code/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py)] [[link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)]
-  - `Easy`、`O(1)`
-  - Tags: `Array`
+### Math
+- 𓏲 1352. Product of the Last K Numbers [[code](./code/1352-2.%20Product%20of%20the%20Last%20K%20Numbers.py)] [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
+  - `Medium`、`O(nlogm)`
+  - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
+
 
 ## TO-DO
 ---
