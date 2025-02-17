@@ -1,7 +1,7 @@
 # leetcode practise
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/363fb1fd-d5e0-49fb-af63-161e396cade5" alt="Alt Text" style="width:70%; height:auto;">
+<img src="https://github.com/user-attachments/assets/363fb1fd-d5e0-49fb-af63-161e396cade5" alt="Alt Text" style="width:80%; height:auto;">
 </p>
 
 _roadmap from https://neetcode.io/roadmap_
