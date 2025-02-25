@@ -41,9 +41,6 @@ _roadmap from https://neetcode.io/roadmap_
 ### Tries
 
 ### Backtracking
-- 1718 - Construct the Lexicographically Largest Valid Sequence [[code](./code/)] [[link](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)]
-  - `Medium`、`Daily`
-  - `Array`、`Backtracking`
 
 ### Heap / Priority Queue
 - ★ 2342 - Max Sum of a Pair With Equal Sum of Digits [[code](./code/2342-3.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.py)] [[link](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)]
