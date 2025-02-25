@@ -69,11 +69,13 @@ _roadmap from https://neetcode.io/roadmap_
 - 𓏲 1352. Product of the Last K Numbers [[code](./code/1352-2.%20Product%20of%20the%20Last%20K%20Numbers.py)] [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
   - `Medium`、`O(nlogm)`
   - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
+  - note: 在需要多次查詢區間資料和或是相乘的情況下，透過前綴和(Prefix Sum)或是前綴乘(Prefix product)的小技巧，可以有效提高運行效率。
 
 ### Comprehensive
 - ★ 2375. Construct Smallest Number From DI String  [[code](./code/)] [[link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)]
   - `Medium`、`O(n)`
   - Tags: `String`、`Backtracking`、`Stack`、`Greedy`
+  - note: 在一些限制下，暴力解也是一種方法。但是可以透過一些技巧，進一步減少暴力解的時間複雜度。
 
 ## Reference
 - [Neetcode-150-and-Blind-75](https://github.com/envico801/Neetcode-150-and-Blind-75/tree/main)
