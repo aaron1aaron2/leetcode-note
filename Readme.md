@@ -70,6 +70,11 @@ _roadmap from https://neetcode.io/roadmap_
   - `Medium`、`O(nlogm)`
   - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
 
+### Comprehensive
+- ★ 2375. Construct Smallest Number From DI String  [[code](./code/)] [[link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)]
+  - `Medium`、`O(n)`
+  - Tags: `String`、`Backtracking`、`Stack`、`Greedy`
+
 ## Reference
 - [Neetcode-150-and-Blind-75](https://github.com/envico801/Neetcode-150-and-Blind-75/tree/main)
 - [Neetcode150](https://neetcode.io/practice?tab=neetcode150)
