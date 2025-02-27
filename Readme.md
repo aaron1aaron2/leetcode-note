@@ -8,18 +8,18 @@ _roadmap from https://neetcode.io/roadmap_
 
 ## Topic
 ### Arrays & Hashing 
-- 1 - Two Sum [code] [[link](https://leetcode.com/problems/two-sum/)]
+- 1 - Two Sum  [[link](https://leetcode.com/problems/two-sum/)]
   - `Easy`、``
   - Tags: `Array`、`Hash Table`
-- 217 - Contains Duplicate [code] [[link](https://leetcode.com/problems/contains-duplicate)]
+- 217 - Contains Duplicate [[link](https://leetcode.com/problems/contains-duplicate)]
   - `Easy`、``
   - Tags: `Array`、`Hash Table`、`Sorting`
-- 242 - Valid Anagram [code] [[link](https://leetcode.com/problems/valid-anagram)]
+- 242 - Valid Anagram [[link](https://leetcode.com/problems/valid-anagram)]
   - `Easy`、``
   - Tags: `Array`、`String`、`Sorting`
 
 ### Two Pointers
-- 125 - Valid Palindrome [code] [[link](https://leetcode.com/problems/valid-palindrome)]
+- 125 - Valid Palindrome [[link](https://leetcode.com/problems/valid-palindrome)]
   - `Easy`、``
   - Tags: `Two Pointers`、`String`
 
@@ -52,7 +52,7 @@ _roadmap from https://neetcode.io/roadmap_
 ### Greedy
 
 ### Bit Manipulation
-- 136 - Single Number [code] [[link](https://leetcode.com/problems/single-number)]
+- 136 - Single Number [[link](https://leetcode.com/problems/single-number)]
   - `Easy`、``
   - Tags: `Array`、`Bit Manipulation`
 
@@ -61,16 +61,16 @@ _roadmap from https://neetcode.io/roadmap_
 
 
 ### Daily
-- 1352 - Product of the Last K Numbers [[code](./code/1352-2.%20Product%20of%20the%20Last%20K%20Numbers.py)] [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
+- 1352 - Product of the Last K Numbers  [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
   - `Medium`、`O(nlogm)`
   - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
   - Note: 在需要多次查詢區間資料和或是相乘的情況下，透過前綴和(Prefix Sum)或是前綴乘(Prefix product)的小技巧，可以有效提高運行效率。
 
-- ★ 2342 - Max Sum of a Pair With Equal Sum of Digits [[code](./code/2342-3.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.py)] [[link](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)]
+- ★ 2342 - Max Sum of a Pair With Equal Sum of Digits [[link](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)]
   - `Medium`、` implement both GetProduct and Add to work in O(1) time complexity`
   - Tags: `Array`、`Hash Table`、`Sorting`、`Heap (Priority Queue)`
 
-- ★ 2375 - Construct Smallest Number From DI String  [[code](./code/2375-2.%20Construct%20Smallest%20Number%20From%20DI%20String.py)] [[link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)]
+- ★ 2375 - Construct Smallest Number From DI String  [[link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)]
   - `Medium`、`O(n)`
   - Tags: `String`、`Backtracking`、`Stack`、`Greedy`、`recursion`
   - Note: 在一些限制下，暴力解也是一種方法。但是可以透過一些技巧，進一步減少暴力解的時間複雜度。這題遞迴和 stack 的方式不直觀需要多看幾次。在題目的條件下，基本上序列只會有嚴格遞增(I) or 遞減(D)，因為如此可以較簡單的角度去處理這個問題。
