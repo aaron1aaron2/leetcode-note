@@ -1,5 +1,5 @@
 # Regulated Brute Force via Recursion | solution of editorial
-# print 
+# The print in the code is just to help understand the state of recursion 
 class Solution:
     def smallestNumber(self, pattern: str) -> str:
         self.result = []
