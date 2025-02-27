@@ -58,7 +58,7 @@ _roadmap from https://neetcode.io/roadmap_
 - ★ 2375 - Construct Smallest Number From DI String  [[code](./code/2375-2.%20Construct%20Smallest%20Number%20From%20DI%20String.py)] [[link](https://leetcode.com/problems/construct-smallest-number-from-di-string/)]
   - `Medium`、`O(n)`
   - Tags: `String`、`Backtracking`、`Stack`、`Greedy`、`recursion`
-  - Note: 在一些限制下，暴力解也是一種方法。但是可以透過一些技巧，進一步減少暴力解的時間複雜度。這題遞迴和 stack 的方式不直觀需要多看幾次。
+  - Note: 在一些限制下，暴力解也是一種方法。但是可以透過一些技巧，進一步減少暴力解的時間複雜度。這題遞迴和 stack 的方式不直觀需要多看幾次。在題目的條件下，基本上序列只會有嚴格遞增(I) or 遞減(D)，因為如此可以較簡單的角度去處理這個問題。
   - <details><summary>more</summary><b>
   
     #### approch1: Brute Force | O(n!⋅n^2)
