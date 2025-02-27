@@ -8,8 +8,20 @@ _roadmap from https://neetcode.io/roadmap_
 
 ## Topic
 ### Arrays & Hashing 
+- 1 - Two Sum [code] [[link](https://leetcode.com/problems/two-sum/)]
+  - `Easy`、``
+  - Tags: `Array`、`Hash Table`
+- 217 - Contains Duplicate [code] [[link](https://leetcode.com/problems/contains-duplicate)]
+  - `Easy`、``
+  - Tags: `Array`、`Hash Table`、`Sorting`
+- 242 - Valid Anagram [code] [[link](https://leetcode.com/problems/valid-anagram)]
+  - `Easy`、``
+  - Tags: `Array`、`String`、`Sorting`
 
 ### Two Pointers
+- 125 - Valid Palindrome [code] [[link](https://leetcode.com/problems/valid-palindrome)]
+  - `Easy`、``
+  - Tags: `Two Pointers`、`String`
 
 ### Stack
 
@@ -40,6 +52,9 @@ _roadmap from https://neetcode.io/roadmap_
 ### Greedy
 
 ### Bit Manipulation
+- 136 - Single Number [code] [[link](https://leetcode.com/problems/single-number)]
+  - `Easy`、``
+  - Tags: `Array`、`Bit Manipulation`
 
 ### Math & Geometry
 
