@@ -9,7 +9,7 @@ _roadmap from https://neetcode.io/roadmap_
 ## Topic
 ### Arrays & Hashing 
 - 1 - Two Sum  [[link](https://leetcode.com/problems/two-sum/)]
-  - `Easy`、``
+  - `Easy`、`O(n) by hash table`
   - Tags: `Array`、`Hash Table`
 - 217 - Contains Duplicate [[link](https://leetcode.com/problems/contains-duplicate)]
   - `Easy`、``
@@ -53,7 +53,7 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Bit Manipulation
 - 136 - Single Number [[link](https://leetcode.com/problems/single-number)]
-  - `Easy`、``
+  - `Easy`、`O(n)`
   - Tags: `Array`、`Bit Manipulation`
 
 ### Math & Geometry
