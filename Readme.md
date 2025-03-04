@@ -12,11 +12,11 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(n) by hash table`
   - Tags: `Array`、`Hash Table`
 - 217 - Contains Duplicate [[link](https://leetcode.com/problems/contains-duplicate)]
-  - `Easy`、``
-  - Tags: `Array`、`Hash Table`、`Sorting`
+  - `Easy`
+  - Tags:
 - 242 - Valid Anagram [[link](https://leetcode.com/problems/valid-anagram)]
-  - `Easy`、``
-  - Tags: `Array`、`String`、`Sorting`
+  - `Easy`
+  - Tags:
 
 ### Two Pointers
 - 125 - Valid Palindrome [[link](https://leetcode.com/problems/valid-palindrome)]
@@ -24,13 +24,31 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Two Pointers`、`String`
   - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
 
-### Stack
-
-### Binary Search
-
 ### Sliding Window
+- 121. Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
+  - `Easy`
+  - Tags:
+
+### Stack
+- 20. Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
+  - `Easy`
+  - Tags:
+
+### Binary Search 
+- 704. Binary Search [[link](https://leetcode.com/problems/binary-search/)]
+  - `Easy`
+  - Tags:
 
 ### Linked List
+- 206. Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
+  - `Easy`
+  - Tags:
+- 21. Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists/)]
+  - `Easy`
+  - Tags:
+- 141. Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle/)]
+  - `Easy`
+  - Tags:
 
 ### Trees
 
