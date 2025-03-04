@@ -20,8 +20,9 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Two Pointers
 - 125 - Valid Palindrome [[link](https://leetcode.com/problems/valid-palindrome)]
-  - `Easy`、``
+  - `Easy`、`O(n)`
   - Tags: `Two Pointers`、`String`
+  - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
 
 ### Stack
 
