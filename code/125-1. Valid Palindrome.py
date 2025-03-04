@@ -11,12 +11,7 @@ class Solution:
             # check char pairs，if not match returm false
             if chars[fw_pointer] != chars[bw_pointer]:
                 return False
-            else:
-                fw_pointer += 1
-                bw_pointer -= 1
-
-        # only Non-letter in input string
-        if (len(chars)==0) & (len(chars) == len(s)):
-            return False
+            fw_pointer += 1
+            bw_pointer -= 1
 
         return True
