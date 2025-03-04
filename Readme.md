@@ -25,28 +25,28 @@ _roadmap from https://neetcode.io/roadmap_
   - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
 
 ### Sliding Window
-- 121. Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
+- 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
   - `Easy`
   - Tags:
 
 ### Stack
-- 20. Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
+- 20 - Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
   - `Easy`
   - Tags:
 
 ### Binary Search 
-- 704. Binary Search [[link](https://leetcode.com/problems/binary-search/)]
+- 704 - Binary Search [[link](https://leetcode.com/problems/binary-search/)]
   - `Easy`
   - Tags:
 
 ### Linked List
-- 206. Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
+- 206 - Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
   - `Easy`
   - Tags:
-- 21. Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists/)]
+- 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists/)]
   - `Easy`
   - Tags:
-- 141. Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle/)]
+- 141 - Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle/)]
   - `Easy`
   - Tags:
 
