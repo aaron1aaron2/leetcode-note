@@ -29,6 +29,7 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`
   - Tags: `Array`、`Dynamic Programming`
   - Note: 第一次看到這題是想用兩個 pointer 作為買賣點，並在一次迴圈下(O(n))找出最佳買賣時間點和獲利，此作法需要多方判斷且有些 edge case，實作起來較複雜不直觀。以 DP 的角度去解的話，你不需要執著最佳獲利的買入點和賣出點只需要計入買入價格與當前最大獲利。其重點是要確認潛在的最大獲利區間條件，在適當位置更新買入點，過程中需要記錄當下的最大獲利。
+    - 此概念類似於 Kadane's Algorithm，主要是要從 array 中找出 maximum subarray sum，透過動態維持`當前最大值`與`全域最大值`兩個變數。`當前最大值`主要是記錄當前 subarray 的狀態，如何決定新的 subarray 開始則是視題目定義。
 
 ### Stack
 - 20 - Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
