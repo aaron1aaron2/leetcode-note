@@ -26,7 +26,7 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Sliding Window
 - 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
-  - `Easy`
+  - `Easy`、`O(n)`
   - Tags: `Array`、`Dynamic Programming`
   - Note: 第一次看到這題是想用兩個 pointer 作為買賣點，並在一次迴圈下(O(n))找出最佳買賣時間點和獲利，此作法需要多方判斷且有些 edge case，實作起來較複雜不直觀。以 DP 的角度去解的話，你不需要執著最佳獲利的買入點和賣出點只需要計入買入價格與當前最大獲利。其重點是要確認潛在的最大獲利區間條件，在適當位置更新買入點，過程中需要記錄當下的最大獲利。
     - 此概念類似於 Kadane's Algorithm，主要是要從 array 中找出 maximum subarray sum，透過動態維持`當前最大值`與`全域最大值`兩個變數。`當前最大值`主要是記錄當前 subarray 的狀態，如何決定新的 subarray 開始則是視題目定義。
@@ -42,35 +42,65 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags:
 
 ### Linked List
+- 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists)]
+  - `Easy`
+  - Tags:
+-  141 - Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle)]
+  - `Easy`
+  - Tags:
 - 206 - Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
-  - `Easy`
-  - Tags:
-- 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists/)]
-  - `Easy`
-  - Tags:
-- 141 - Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle/)]
   - `Easy`
   - Tags:
 
 ### Trees
+- 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
+  - `Easy`
+  - Tags:
+- 104 - Maximum Depth of Binary Tree [[link](https://leetcode.com/problems/maximum-depth-of-binary-tree)]
+  - `Easy`
+  - Tags:
+- 543 - Diameter of Binary Tree [[link](https://leetcode.com/problems/diameter-of-binary-tree)]
+  - `Easy`
+  - Tags
+- 110 - Balanced Binary Tree  [[link](https://leetcode.com/problems/balanced-binary-tree)]
+  - `Easy`
+  - Tags
+- 100 - Same Tree [[link](https://leetcode.com/problems/same-tree)]
+  - `Easy`
+  - Tags:
+- 572 - Subtree of Another Tree [[link](https://leetcode.com/problems/subtree-of-another-tree)]
+  - `Easy`
+  - Tags:
 
-### Tries
+### Heap / Priority Queue
+- 703 - Kth Largest Element in a Stream [[link](https://leetcode.com/problems/kth-largest-element-in-a-stream)]
+  - `Easy`
+  - Tags:
+- 1046 - Last Stone Weight [[link](https://leetcode.com/problems/last-stone-weight)]
+  - `Easy`
+  - Tags:
 
 ### Backtracking
 
-### Heap / Priority Queue
+### Tries
 
 ### Graphs
 
 ### Advanced Graphs
 
 ### 1-D DP
+- 70 - Climbing Stairs [[link](https://leetcode.com/problems/climbing-stairs)]
+  - `Easy`
+  - Tags:
+- 746 - Min Cost Climbing Stairs [[link](https://leetcode.com/problems/min-cost-climbing-stairs)]
+  - `Easy`
+  - Tags:
 
 ### 2-D DP
 
-### Intervals
-
 ### Greedy
+
+### Intervals
 
 ### Bit Manipulation
 - 136 - Single Number [[link](https://leetcode.com/problems/single-number)]
@@ -78,7 +108,12 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Array`、`Bit Manipulation`
 
 ### Math & Geometry
-
+- 202 - Happy Number [[link](https://leetcode.com/problems/happy-number)]
+  - `Easy`
+  - Tags:
+- 66 - Plus One [[link](https://leetcode.com/problems/plus-one)]
+  - `Easy`
+  - Tags:
 
 
 ### Daily
