@@ -27,7 +27,8 @@ _roadmap from https://neetcode.io/roadmap_
 ### Sliding Window
 - 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
   - `Easy`
-  - Tags:
+  - Tags: `Array`、`Dynamic Programming`
+  - Note: 第一次看到這題是想用兩個 pointer 作為買賣點，並在一次迴圈下(O(n))找出最佳買賣時間的獲利，此作法需要多方判斷且有些 edge case，實作起來較複雜不直觀。這題的重點是要發現在此問題定義下的
 
 ### Stack
 - 20 - Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
