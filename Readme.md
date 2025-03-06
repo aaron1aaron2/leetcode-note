@@ -286,12 +286,15 @@ _roadmap from https://neetcode.io/roadmap_
     ```
     
     </b></details>
-
-- 3066 - Minimum Operations to Exceed Threshold Value II  [[code](./code/3066-2.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py)] [[link](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii)]
+- 2965 - Find Missing and Repeated Values [[link](https://leetcode.com/problems/find-missing-and-repeated-values)]
+  - `Medium`、`O(n^2)` 
+  - Tags: `Array`、`Hash Table`、`Math`、`Matrix`
+    
+- 3066 - Minimum Operations to Exceed Threshold Value II  [[link](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii)]
   - `Medium`、`O(nlogm)` 
   - Tags: `Array`、`Heap (Priority Queue)`、`Simulation`
 
-- 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray [[code](./code/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py)] [[link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)]
+- 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray [[link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)]
   - `Easy`、`O(1)`
   - Tags: `Array`
 
