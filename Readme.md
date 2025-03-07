@@ -287,6 +287,10 @@ _roadmap from https://neetcode.io/roadmap_
     ```
     
     </b></details>
+
+- 2523 - Closest Prime Numbers in Range [[link](https://leetcode.com/problems/closest-prime-numbers-in-range)]
+  - `Medium`、`O(Rlog(log(R))+R−L) |  O(min(1452,R−L)⋅sqrt(R))` 
+  - Tags: `Math`、`Number Theory`
 - 2965 - Find Missing and Repeated Values [[link](https://leetcode.com/problems/find-missing-and-repeated-values)]
   - `Medium`、`O(n^2)` 
   - Tags: `Array`、`Hash Table`、`Math`、`Matrix`
