@@ -33,8 +33,9 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Stack
 - 20 - Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `String`、`Stack`
+  - Note: 此題目在不限制先進後出（First In Last Out，FILO）時，使用 hash table 的方式較直觀，EX. `input: "([)]" Output: True`。而在本題需要確保括號的開與關需要 FIFO，則較適合使用 stack 的方式去處理。
 
 ### Binary Search 
 - 704 - Binary Search [[link](https://leetcode.com/problems/binary-search/)]
