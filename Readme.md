@@ -44,9 +44,9 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Linked List
 - 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists)]
-  - `Easy`
-  - Tags:
--  141 - Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle)]
+  - `Easy`、`O(m+n)`
+  - Tags: `Linked List`、`Recursion`
+- 141 - Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle)]
   - `Easy`
   - Tags:
 - 206 - Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
