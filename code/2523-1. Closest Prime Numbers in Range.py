@@ -1,32 +1,27 @@
-# Time Limit Exceeded | filter prime num O(n) -> sort prime num O(m) -> search min diff O(m)
+# Time Limit Exceeded 
 class Solution:
     def is_prime(self, num:int) -> bool:
+        if num == 1:
+            return False
+
         for i in range(2,num):
             if num % i == 0:
                 return False
         return True
 
     def closestPrimes(self, left: int, right: int) -> List[int]:
-        prime_nums = []
+        min_val = right - left + 1 # Make sure it is greater than all the values in the range
+        min_pair = [-1, -1]
+        prev_prime = None
         for i in range(left, right+1):
-            if is_prime(i):
-                prime_nums.append(i)
+            if self.is_prime(i):
+                if prev_prime:
+                    cur_val = i - prev_prime
 
-        if len(prime_nums) > 1:
-            prime_nums = sorted(prime_nums)   
-            min_pair = [prime_nums[0], prime_nums[1]]
-            min_val = prime_nums[1] - prime_nums[0]
-            for i in range(len(prime_nums)-1):
-                cur_val = prime_nums[i+1] - prime_nums[i]
-                if cur_val < min_val:
-                    min_val = cur_val
-                    min_pair = [prime_nums[i], prime_nums[i+1]]
+                    if cur_val < min_val:
+                        min_val = cur_val
+                        min_pair = [prev_prime, i]
+                
+                prev_prime = i
 
-            return min_pair
-        else:
-            return [-1, -1]
-            
-
-        
-
-        
+        return min_pair
