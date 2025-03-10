@@ -291,6 +291,9 @@ _roadmap from https://neetcode.io/roadmap_
 - ★ 2523 - Closest Prime Numbers in Range [[link](https://leetcode.com/problems/closest-prime-numbers-in-range)]
   - `Medium`、`O(right * log(log(right))) using Sieve of Eratosthenes` 
   - Tags: `Math`、`Number Theory`
+  - Note: 主要問題是優化判斷質數(prime) 的方法，如果直接搜尋 2~n 的所有數字去判斷是否整除，會超時。主要用兩種方式優化判斷質數的方式:
+    1. 依據數學定理我們可以直接限制搜尋範圍到 n 的平方根 (Square root)。
+    2. 使用經典的方法質數篩子 (Sieve of Eratosthenes)，可以一次判斷 1 ~ n 範圍內的所有質數。在本題中將 right 視為n，取的n以下所有質數後再去取出 left ~ right 的質數。
 - 2965 - Find Missing and Repeated Values [[link](https://leetcode.com/problems/find-missing-and-repeated-values)]
   - `Medium`、`O(n^2)` 
   - Tags: `Array`、`Hash Table`、`Math`、`Matrix`
