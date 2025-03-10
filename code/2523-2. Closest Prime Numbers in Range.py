@@ -1,4 +1,5 @@
 # Prime number judgment optimization, in the number i of 5 ~ n, only search for the number of i*i < n
+# O(n∗sqrt(n))
 class Solution:
     def is_prime(self, n:int) -> bool:
         '''
