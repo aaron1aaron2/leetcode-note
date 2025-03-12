@@ -295,6 +295,12 @@ _roadmap from https://neetcode.io/roadmap_
   - Note: 主要問題是優化判斷質數(prime) 的方法，如果直接搜尋 2~n 的所有數字去判斷是否整除，會超時。主要用兩種方式優化判斷質數的方式:
     1. 依據數學定理我們可以直接限制搜尋範圍到 n 的平方根 (Square root)。
     2. 使用經典的方法質數篩子 (Sieve of Eratosthenes)，可以一次判斷 1 ~ n 範圍內的所有質數。在本題中將 right 視為n，取的n以下所有質數後再去取出 left ~ right 的質數。
+
+- 2529 - Maximum Count of Positive Integer and Negative Integer [[link](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)]
+  - `Easy`、`O(log n)` 
+  - Tags: `Array`、`Binary Search`、`Counting`
+  - Note: 可以簡單使用兩個變數去計數，在題目中有特別提到 `non-decreasing` 所以可以使用 Binary Search (從中間找) 的方式做。
+
 - 2965 - Find Missing and Repeated Values [[link](https://leetcode.com/problems/find-missing-and-repeated-values)]
   - `Medium`、`O(n^2)` 
   - Tags: `Array`、`Hash Table`、`Math`、`Matrix`
@@ -306,6 +312,8 @@ _roadmap from https://neetcode.io/roadmap_
 - 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray [[link](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)]
   - `Easy`、`O(1)`
   - Tags: `Array`
+
+
 
 ## Reference
 - [Neetcode-150-and-Blind-75](https://github.com/envico801/Neetcode-150-and-Blind-75/tree/main)
