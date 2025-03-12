@@ -47,8 +47,9 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(m+n)`
   - Tags: `Linked List`、`Recursion`
 - 141 - Linked List Cycle [[link](https://leetcode.com/problems/linked-list-cycle)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Hash Table`、`Linked List`、`Two Pointers`
+  - Note: 在 python 中可以直接用 list(dynamic array)、dict(hash table) 去存取已經過節點。Two-Pointers Method (Floyd's Cycle-Finding Algorithm):
 - 206 - Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
   - `Easy`
   - Tags:
