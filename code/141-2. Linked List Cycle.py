@@ -1,4 +1,4 @@
-# two pointer -> slow & fast | https://leetcode.com/problems/linked-list-cycle/solutions/6086375/video-using-two-pointers/
+# two pointer -> slow & fast (Floyd's Cycle-Finding Algorithm) | https://leetcode.com/problems/linked-list-cycle/solutions/6086375/video-using-two-pointers/
 
 # Definition for singly-linked list.
 # class ListNode:
