@@ -296,10 +296,10 @@ _roadmap from https://neetcode.io/roadmap_
     1. 依據數學定理我們可以直接限制搜尋範圍到 n 的平方根 (Square root)。
     2. 使用經典的方法質數篩子 (Sieve of Eratosthenes)，可以一次判斷 1 ~ n 範圍內的所有質數。在本題中將 right 視為n，取的n以下所有質數後再去取出 left ~ right 的質數。
 
-- 2529 - Maximum Count of Positive Integer and Negative Integer [[link](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)]
+- ★ 2529 - Maximum Count of Positive Integer and Negative Integer [[link](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)]
   - `Easy`、`O(log n)` 
   - Tags: `Array`、`Binary Search`、`Counting`
-  - Note: 可以簡單使用兩個變數去計數，在題目中有特別提到 `non-decreasing` 所以可以使用 Binary Search (從中間找) 的方式做。
+  - Note: 可以簡單使用兩個變數去計數，在題目中有特別提到 `non-decreasing` 所以可以使用 Binary Search 的方式做。也就是每此從中間切一半，判斷要往哪裡限縮範圍。這題需要再加強順逆向優先的 binary search 的實作方式。
 
 - 2965 - Find Missing and Repeated Values [[link](https://leetcode.com/problems/find-missing-and-repeated-values)]
   - `Medium`、`O(n^2)` 
