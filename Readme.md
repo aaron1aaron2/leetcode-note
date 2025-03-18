@@ -68,8 +68,8 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Hash Table`、`Linked List`、`Two Pointers`
   - Note: 在 python 中可以直接用 list(dynamic array)、dict(hash table) 去存取已經過節點。Two-Pointers Method (Floyd's Cycle-Finding Algorithm)，，透過兩個遊走速度不一的節點，去判定是否存在循環。要注意的是，它是用在具有明確序列結構的資料，例如鏈結串列、循環數組或迭代函數，並且只能確認循環存在與否，無法得知進一步訊息。
 - 206 - Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Linked List`、`Recursion`
 
 ### Trees
 - 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
