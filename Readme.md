@@ -39,8 +39,9 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Binary Search 
 - 704 - Binary Search [[link](https://leetcode.com/problems/binary-search/)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(logn)`
+  - Tags: `Array`、`Binary Search`
+  - Note: 在已排序的序列的場景下，Binary Search 透過取中間值判斷往哪邊查詢，可以快速查找對應數值。較進階的方式是找到 upper bound 或是 lower bound。
 
 ### Linked List
 - 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists)]
