@@ -42,7 +42,24 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(logn)`
   - Tags: `Array`、`Binary Search`
   - Note: 在已排序的序列的場景下，Binary Search 透過決定左右範圍，每次以中間值判斷要往哪一半的方向搜尋，可以快速查找對應數值。要特別熟悉一下 upper bound 或是 lower bound 版本的實作。
+  - <details><summary>Example</summary><b>
+ 
+    #### Exact Value
+    ![image](https://github.com/user-attachments/assets/10deeaa8-b375-4ef5-93ea-f076706adb61)
+ 
+    #### Upper bound
+    ![image](https://github.com/user-attachments/assets/18124327-fa5d-4563-8873-f4d7e5344c26)
+    ![image](https://github.com/user-attachments/assets/2d30b047-433e-4cdd-89c6-33db77173074)
 
+    #### Lower bound
+    ![image](https://github.com/user-attachments/assets/9f9aaae5-8ea1-41be-be4d-7f982f5a7da5)
+
+
+    
+    _image frome leetcode -> https://leetcode.com/problems/binary-search/editorial/_
+
+    
+    </b></details>
 ### Linked List
 - 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists)]
   - `Easy`、`O(m+n)`
