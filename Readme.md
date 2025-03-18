@@ -48,7 +48,6 @@ _roadmap from https://neetcode.io/roadmap_
     ![image](https://github.com/user-attachments/assets/10deeaa8-b375-4ef5-93ea-f076706adb61)
  
     #### Upper bound
-    ![image](https://github.com/user-attachments/assets/18124327-fa5d-4563-8873-f4d7e5344c26)
     ![image](https://github.com/user-attachments/assets/2d30b047-433e-4cdd-89c6-33db77173074)
 
     #### Lower bound
