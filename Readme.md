@@ -70,6 +70,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 206 - Reverse Linked List [[link](https://leetcode.com/problems/reverse-linked-list/)]
   - `Easy`、`O(n)`
   - Tags: `Linked List`、`Recursion`
+  - Note: Linked List 的基本操作，可以嘗試看看 Recursion 的方法。
 
 ### Trees
 - 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
