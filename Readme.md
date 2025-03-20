@@ -116,6 +116,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 746 - Min Cost Climbing Stairs [[link](https://leetcode.com/problems/min-cost-climbing-stairs)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Dynamic Programming`
+  - Note: 概念和 "70 - Climbing Stairs" 差不多，只是要多一個取最小值的動作
 
 ### 2-D DP
 
