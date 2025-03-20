@@ -110,10 +110,11 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### 1-D DP
 - 70 - Climbing Stairs [[link](https://leetcode.com/problems/climbing-stairs)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Math`、`Dynamic Programming`、`Memoization`
+  - Note: 重點是由小到大各階梯到達方法數的更新。可以用遞迴、序列儲存每一階狀態，也可以用兩個變數動態儲存狀態以解省空間。
 - 746 - Min Cost Climbing Stairs [[link](https://leetcode.com/problems/min-cost-climbing-stairs)]
-  - `Easy`
+  - `Easy`、``
   - Tags:
 
 ### 2-D DP
@@ -126,6 +127,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 136 - Single Number [[link](https://leetcode.com/problems/single-number)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Bit Manipulation`
+
 
 ### Math & Geometry
 - 202 - Happy Number [[link](https://leetcode.com/problems/happy-number)]
