@@ -114,8 +114,8 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Math`、`Dynamic Programming`、`Memoization`
   - Note: 重點是發現每一階都是由前兩階的數量(到該階有 1 or 2 步兩種方式)。可以用遞迴、序列儲存每一階狀態，也可以用兩個變數動態儲存狀態以解省空間。
 - 746 - Min Cost Climbing Stairs [[link](https://leetcode.com/problems/min-cost-climbing-stairs)]
-  - `Easy`、``
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Array`、`Dynamic Programming`
 
 ### 2-D DP
 
