@@ -112,7 +112,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 70 - Climbing Stairs [[link](https://leetcode.com/problems/climbing-stairs)]
   - `Easy`、`O(n)`
   - Tags: `Math`、`Dynamic Programming`、`Memoization`
-  - Note: 重點是由小到大各階梯到達方法數的更新。可以用遞迴、序列儲存每一階狀態，也可以用兩個變數動態儲存狀態以解省空間。
+  - Note: 重點是發現每一階都是由前兩階的數量(到該階有 1 or 2 步兩種方式)。可以用遞迴、序列儲存每一階狀態，也可以用兩個變數動態儲存狀態以解省空間。
 - 746 - Min Cost Climbing Stairs [[link](https://leetcode.com/problems/min-cost-climbing-stairs)]
   - `Easy`、``
   - Tags:
