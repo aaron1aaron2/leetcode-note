@@ -18,6 +18,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 242 - Valid Anagram [[link](https://leetcode.com/problems/valid-anagram)]
   - `Easy`、`O(n)`
   - Tags: `String`、`Hash Table`、`Sorting`
+  - Notes: 直接使用 sorting 後比對兩字串是最直觀的方式，但是效率不好。這題使用 hash map 去解比較快。
 
 ### Two Pointers
 - 125 - Valid Palindrome [[link](https://leetcode.com/problems/valid-palindrome)]
