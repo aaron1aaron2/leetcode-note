@@ -131,13 +131,13 @@ _roadmap from https://neetcode.io/roadmap_
 
 
 ### Math & Geometry
-- 202 - Happy Number [[link](https://leetcode.com/problems/happy-number)]
+- ★ 202 - Happy Number [[link](https://leetcode.com/problems/happy-number)]
   - `Easy`、`O(log n) 這是在數理上被認為進入循環的步數`
   - Tags: `Hash Table`、`Math`、`Two Pointers`
   - Notes: 我一開始使用 python list 的方式去儲存已出現的數字。使用 set 資料型態儲存可以有效改善判斷數字是否出現過的速度 (檢查從 O(k) 降到 O(1)（平均情況）)，這邊 record 的大小為 k 最多增長到 m(最壞情況)，在數理上平均來看在找尋 happy number 時的 O(k) = O(log n)。
 - 66 - Plus One [[link](https://leetcode.com/problems/plus-one)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Array`、`Math`
 
 
 ### Daily
