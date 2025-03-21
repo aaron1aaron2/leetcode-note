@@ -1,4 +1,4 @@
-# my solution
+# my solution | O(log² n)
 class Solution:
     def isHappy(self, n: int) -> bool:
         record = [n] # record repeat num
