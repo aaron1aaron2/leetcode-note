@@ -76,8 +76,9 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Trees
 - 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
+  - Note: 概念很簡單反轉所有遊走到的節點，但是只能使用遞迴對 tree 進行遊走，要習慣遞迴作法。
 - 104 - Maximum Depth of Binary Tree [[link](https://leetcode.com/problems/maximum-depth-of-binary-tree)]
   - `Easy`
   - Tags:
