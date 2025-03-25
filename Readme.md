@@ -97,8 +97,9 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Heap / Priority Queue
 - 703 - Kth Largest Element in a Stream [[link](https://leetcode.com/problems/kth-largest-element-in-a-stream)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O((M+N)⋅logk)`
+  - Tags: `Tree`、`Design`、`Binary Search Tree`、`Heap (Priority Queue)`、`Binary Tree`、`Data Stream`
+  - Note: 這題的重點是會多次插入新數字，我們要頻繁更新這些數字並取得特定排名的數字。第一種方法是維持一個 sorted list，並使用 Binary Search 去進行插入新數字的動作。帶二種是維持一個大小為 k 的 heap，並動態更新。
 - 1046 - Last Stone Weight [[link](https://leetcode.com/problems/last-stone-weight)]
   - `Easy`
   - Tags:
