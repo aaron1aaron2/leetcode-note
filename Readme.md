@@ -14,7 +14,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 217 - Contains Duplicate [[link](https://leetcode.com/problems/contains-duplicate)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Hash Table`、`Sorting`
-  - Notes: 如果不需要記 values，的情況下 hash set 效率會 > hash map。要注意直接對 nums 使用 set 比較與原先 nums 的長度是很直觀的作法，但是會造成額外成本。最好是動態加入 set 動態比對，因為我們只需要知道是否有重複這件事，而不是哪個數字重複多少次。
+  - Notes: 如果不需要記 values，的情況下 hash set 效率會 > hash map。要注意直接對 nums 使用 set 與原先 nums 的長度比較是很直觀的作法，但是會造成額外成本。最好是動態加入 set 動態比對，因為我們只需要知道是否有重複這件事，而不是哪個數字重複多少次。
 - 242 - Valid Anagram [[link](https://leetcode.com/problems/valid-anagram)]
   - `Easy`、`O(n)`
   - Tags: `String`、`Hash Table`、`Sorting`
