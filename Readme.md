@@ -80,8 +80,9 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
   - Note: 概念很簡單反轉所有遊走到的節點，但是只能使用遞迴對 tree 進行遊走，要習慣遞迴作法。
 - 104 - Maximum Depth of Binary Tree [[link](https://leetcode.com/problems/maximum-depth-of-binary-tree)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
+  - Note: 基本的遞迴遊走(DFS)比較方便，如需要使用 BFS 則需使用 queue，按造深度儲存不同層的node
 - 543 - Diameter of Binary Tree [[link](https://leetcode.com/problems/diameter-of-binary-tree)]
   - `Easy`
   - Tags
