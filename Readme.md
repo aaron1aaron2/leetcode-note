@@ -88,8 +88,9 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Tree`、`Depth-First Search`、`Binary Tree`
   - Note: 主要的概念是要 hold 住一個全域變數，讓我在使用 DFS 遊走時，動態計算各節點的直徑(左右相加)，並記錄最長直徑。寫法和上面 _Maximum Depth of Binary Tree_ 差不多。
 - 110 - Balanced Binary Tree  [[link](https://leetcode.com/problems/balanced-binary-tree)]
-  - `Easy`
-  - Tags
+  - `Easy`、`O(n)`
+  - Tags: `Tree`、`Depth-First Search`、`Binary Tree`
+  - Note: 只要記錄(遞迴回傳 or 全域變數)是否結果就好。寫法和上面 _Diameter of Binary Tree_、_Maximum Depth of Binary Tree_ 差不多
 - 100 - Same Tree [[link](https://leetcode.com/problems/same-tree)]
   - `Easy`
   - Tags:
