@@ -26,20 +26,20 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Two Pointers`、`String`
   - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
 
-### Sliding Window
+### Sliding Window | ★ 
 - ★ 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Dynamic Programming`
   - Note: 第一次看到這題是想用兩個 pointer 作為買賣點，並在一次迴圈下(O(n))找出最佳買賣時間點和獲利，此作法需要多方判斷且有些 edge case，實作起來較複雜不直觀。以 DP 的角度去解的話，你不需要執著最佳獲利的買入點和賣出點只需要計入買入價格與當前最大獲利。其重點是要確認潛在的最大獲利區間條件，在適當位置更新買入點，過程中需要記錄當下的最大獲利。
     - 此概念類似於 Kadane's Algorithm，主要是要從 array 中找出 maximum subarray sum，透過動態維持`當前最大值`與`全域最大值`兩個變數。`當前最大值`主要是記錄當前 subarray 的狀態，如何決定新的 subarray 開始則是視題目定義。
 
-### Stack
+### Stack | ★ ★ 
 - 20 - Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
   - `Easy`、`O(n)`
   - Tags: `String`、`Stack`
   - Note: 此題目在不限制先進後出（First In Last Out，FILO）時，使用 hash table 的方式較直觀，EX. `input: "([)]" Output: True`。而在本題需要確保括號的開與關需要 FILO，則較適合使用 stack 的方式去處理。
 
-### Binary Search 
+### Binary Search | ★ ★ ★ ★ ★ 
 - 704 - Binary Search [[link](https://leetcode.com/problems/binary-search/)]
   - `Easy`、`O(logn)`
   - Tags: `Array`、`Binary Search`
@@ -74,7 +74,7 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Linked List`、`Recursion`
   - Note: Linked List 的基本操作，可以嘗試看看 Recursion 的方法。
 
-### Trees
+### Trees | ★ ★ 
 - 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
   - `Easy`、`O(n)`
   - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
@@ -97,7 +97,7 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`
   - Tags:
 
-### Heap / Priority Queue
+### Heap / Priority Queue | ★ ★ ★ 
 - 703 - Kth Largest Element in a Stream [[link](https://leetcode.com/problems/kth-largest-element-in-a-stream)]
   - `Easy`、`O((M+N)⋅logk)`
   - Tags: `Tree`、`Design`、`Binary Search Tree`、`Heap (Priority Queue)`、`Binary Tree`、`Data Stream`
@@ -106,7 +106,7 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`
   - Tags:
 
-### Backtracking
+### Backtracking | ★ ★ ★ ★ ★ 
 
 ### Tries
 
@@ -114,7 +114,7 @@ _roadmap from https://neetcode.io/roadmap_
 
 ### Advanced Graphs
 
-### 1-D DP
+### 1-D DP | ★ ★ ★ 
 - ★ 70 - Climbing Stairs [[link](https://leetcode.com/problems/climbing-stairs)]
   - `Easy`、`O(n)`
   - Tags: `Math`、`Dynamic Programming`、`Memoization`
