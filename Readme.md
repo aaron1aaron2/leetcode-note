@@ -84,8 +84,9 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
   - Note: 基本的遞迴遊走(DFS)比較方便，如需要使用 BFS 則需使用 queue，按造深度儲存不同層的node
 - 543 - Diameter of Binary Tree [[link](https://leetcode.com/problems/diameter-of-binary-tree)]
-  - `Easy`
-  - Tags
+  - `Easy`、`O(n)`
+  - Tags: `Tree`、`Depth-First Search`、`Binary Tree`
+  - Note: 主要的概念是要 hold 住一個全域變數，讓我在使用 DFS 遊走時，動態計算各節點的直徑(左右相加)，並記錄最長直徑。寫法和上面 _Maximum Depth of Binary Tree_ 差不多。
 - 110 - Balanced Binary Tree  [[link](https://leetcode.com/problems/balanced-binary-tree)]
   - `Easy`
   - Tags
