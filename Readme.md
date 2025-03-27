@@ -103,9 +103,9 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Tree`、`Design`、`Binary Search Tree`、`Heap (Priority Queue)`、`Binary Tree`、`Data Stream`
   - Note: 這題的重點是會多次插入新數字，我們要頻繁更新這些數字並取得特定排名的數字。第一種方法是維持一個 sorted list，並使用 Binary Search 去進行插入新數字的動作。帶二種是維持一個大小為 k 的 heap，並動態更新。
 - 1046 - Last Stone Weight [[link](https://leetcode.com/problems/last-stone-weight)]
-  - `Easy`
-  - Tags:
-
+  - `Easy`、`O(NlogN)`
+  - Tags: `Array`、`Heap (Priority Queue)`
+  - Note: python 的 heapq 為 min heap，本題需要 max heap，所以全程將石頭重量視為負數(越重得越小)，進行實作，最後才轉換成正數。 
 ### Backtracking | ★ ★ ★ ★ ★ 
 
 ### Tries
