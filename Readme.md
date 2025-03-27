@@ -19,12 +19,32 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(n)`
   - Tags: `String`、`Hash Table`、`Sorting`
   - Notes: 直接使用 sorting 後比對兩字串是最直觀的方式，但是效率不好。這題使用 hash map 去解比較快。
+---
+- 36 - Valid Sudoku [[link](https://leetcode.com/problems/valid-sudoku/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Matrix`、`Hash Table`
+- 49 - Group Anagrams [[link](https://leetcode.com/problems/group-anagrams/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`String`、`Hash Table`、`Sorting`
+- 128 - Longest Consecutive Sequence [[link](https://leetcode.com/problems/longest-consecutive-sequence/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Hash Table`、`Union Find`
+- 238 - Product of Array Except Self [[link](https://leetcode.com/problems/product-of-array-except-self/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Prefix Sum`
+- 347 - Top K Frequent Elements [[link](https://leetcode.com/problems/top-k-frequent-elements/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`String`、`Hash Table`、`Sorting`、`Divide and Conquer`、`Heap (Priority Queue)`、`Bucket Sort`、`Counting`、`Quickselect`
 
 ### Two Pointers
 - 125 - Valid Palindrome [[link](https://leetcode.com/problems/valid-palindrome)]
   - `Easy`、`O(n)`
   - Tags: `Two Pointers`、`String`
   - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
+---
+- 347 - Top K Frequent Elements [[link](https://leetcode.com/problems/top-k-frequent-elements/description/)]
+  - `Medium`、`O(n)`
+  - Tags:
 
 ### Sliding Window | ★ 
 - ★ 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
