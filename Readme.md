@@ -42,9 +42,19 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Two Pointers`、`String`
   - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
 ---
-- 347 - Top K Frequent Elements [[link](https://leetcode.com/problems/top-k-frequent-elements/description/)]
+- 11 - Container With Most Water [[link](https://leetcode.com/problems/container-with-most-water/description/)]
   - `Medium`、`O(n)`
-  - Tags:
+  - Tags: `Array`、`Two Pointers`、`Greedy`
+- 15 - 3Sum [[link](https://leetcode.com/problems/3sum/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Two Pointers`、`Sorting`
+- 42. Trapping Rain Water [[link](https://leetcode.com/problems/trapping-rain-water/description/)]
+  - `Hard`、`O(n)`
+  - Tags: `Array`、`Two Pointers`、`Dynamic Programming`、`Stack`、`Monotonic Stack`
+- 167 - Two Sum II - Input Array Is Sorted [[link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Two Pointers`、`Binary Search`
+
 
 ### Sliding Window | ★ 
 - ★ 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
@@ -126,10 +136,25 @@ _roadmap from https://neetcode.io/roadmap_
 - 1046 - Last Stone Weight [[link](https://leetcode.com/problems/last-stone-weight)]
   - `Easy`、`O(NlogN)`
   - Tags: `Array`、`Heap (Priority Queue)`
-  - Note: python 的 heapq 為 min heap，本題需要 max heap，所以全程將石頭重量視為負數(越重得越小)，進行實作，最後才轉換成正數。 
+  - Note: python 的 heapq 為 min heap，本題需要 max heap，所以全程將石頭重量視為負數(越重得越小)，進行實作，最後才轉換成正數。
+
 ### Backtracking | ★ ★ ★ ★ ★ 
+---
+- 78 - Subsets  [[link](https://leetcode.com/problems/subsets/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Backtracking`、`Bit Manipulation`
+- 39 - Combination Sum  [[link](https://leetcode.com/problems/combination-sum/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Backtracking`
+- 40. Combination Sum II  [[link](https://leetcode.com/problems/combination-sum-ii/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Array`、`Backtracking`
 
 ### Tries
+---
+- 208. Implement Trie (Prefix Tree) [[link](https://leetcode.com/problems/implement-trie-prefix-tree/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Hash Table`、`String`、`Design`、`Trie`
 
 ### Graphs
 
