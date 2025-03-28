@@ -7,7 +7,7 @@
 _roadmap from https://neetcode.io/roadmap_
 
 ## Topic
-### Arrays & Hashing 
+### Arrays & Hashing (3/9)
 - 1 - Two Sum  [[link](https://leetcode.com/problems/two-sum/)]
   - `Easy`、`O(n) by hash table`
   - Tags: `Array`、`Hash Table`
@@ -35,8 +35,10 @@ _roadmap from https://neetcode.io/roadmap_
 - 347 - Top K Frequent Elements [[link](https://leetcode.com/problems/top-k-frequent-elements/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`String`、`Hash Table`、`Sorting`、`Divide and Conquer`、`Heap (Priority Queue)`、`Bucket Sort`、`Counting`、`Quickselect`
+- 🔒 271 - Encode and Decode Strings [[link](https://leetcode.com/problems/encode-and-decode-strings/description/)]
+  - `Medium`
 
-### Two Pointers
+### Two Pointers (1/5)
 - 125 - Valid Palindrome [[link](https://leetcode.com/problems/valid-palindrome)]
   - `Easy`、`O(n)`
   - Tags: `Two Pointers`、`String`
@@ -56,20 +58,20 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Array`、`Two Pointers`、`Binary Search`
 
 
-### Sliding Window | ★ 
+### Sliding Window (1/6) | ★ 
 - ★ 121 - Best Time to Buy and Sell Stock [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Dynamic Programming`
   - Note: 第一次看到這題是想用兩個 pointer 作為買賣點，並在一次迴圈下(O(n))找出最佳買賣時間點和獲利，此作法需要多方判斷且有些 edge case，實作起來較複雜不直觀。以 DP 的角度去解的話，你不需要執著最佳獲利的買入點和賣出點只需要計入買入價格與當前最大獲利。其重點是要確認潛在的最大獲利區間條件，在適當位置更新買入點，過程中需要記錄當下的最大獲利。
     - 此概念類似於 Kadane's Algorithm，主要是要從 array 中找出 maximum subarray sum，透過動態維持`當前最大值`與`全域最大值`兩個變數。`當前最大值`主要是記錄當前 subarray 的狀態，如何決定新的 subarray 開始則是視題目定義。
 
-### Stack | ★ ★ 
+### Stack (1/7) | ★ ★ 
 - 20 - Valid Parentheses [[link](https://leetcode.com/problems/valid-parentheses/)]
   - `Easy`、`O(n)`
   - Tags: `String`、`Stack`
   - Note: 此題目在不限制先進後出（First In Last Out，FILO）時，使用 hash table 的方式較直觀，EX. `input: "([)]" Output: True`。而在本題需要確保括號的開與關需要 FILO，則較適合使用 stack 的方式去處理。
 
-### Binary Search | ★ ★ ★ ★ ★ 
+### Binary Search (1/7) | ★ ★ ★ ★ ★ 
 - 704 - Binary Search [[link](https://leetcode.com/problems/binary-search/)]
   - `Easy`、`O(logn)`
   - Tags: `Array`、`Binary Search`
@@ -91,7 +93,7 @@ _roadmap from https://neetcode.io/roadmap_
 
     
     </b></details>
-### Linked List
+### Linked List (3/11) | ★ 
 - 21 - Merge Two Sorted Lists [[link](https://leetcode.com/problems/merge-two-sorted-lists)]
   - `Easy`、`O(m+n)`
   - Tags: `Linked List`、`Recursion`
@@ -104,7 +106,7 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Linked List`、`Recursion`
   - Note: Linked List 的基本操作，可以嘗試看看 Recursion 的方法。
 
-### Trees | ★ ★ 
+### Trees (4/15) | ★ ★
 - 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
   - `Easy`、`O(n)`
   - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
@@ -128,7 +130,7 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`
   - Tags:
 
-### Heap / Priority Queue | ★ ★ ★ 
+### Heap / Priority Queue (2/7) | ★ ★ ★ 
 - 703 - Kth Largest Element in a Stream [[link](https://leetcode.com/problems/kth-largest-element-in-a-stream)]
   - `Easy`、`O((M+N)⋅logk)`
   - Tags: `Tree`、`Design`、`Binary Search Tree`、`Heap (Priority Queue)`、`Binary Tree`、`Data Stream`
@@ -138,7 +140,7 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Array`、`Heap (Priority Queue)`
   - Note: python 的 heapq 為 min heap，本題需要 max heap，所以全程將石頭重量視為負數(越重得越小)，進行實作，最後才轉換成正數。
 
-### Backtracking | ★ ★ ★ ★ ★ 
+### Backtracking (0/9) | ★ ★ ★ ★ ★ 
 ---
 - 78 - Subsets  [[link](https://leetcode.com/problems/subsets/description/)]
   - `Medium`、`O(n)`
@@ -150,7 +152,7 @@ _roadmap from https://neetcode.io/roadmap_
   - `Medium`、`O(n)`
   - Tags: `Array`、`Backtracking`
 
-### Tries
+### Tries (0/3) | ★ ★ 
 ---
 - 208 - Implement Trie (Prefix Tree) [[link](https://leetcode.com/problems/implement-trie-prefix-tree/description/)]
   - `Medium`、`O(n)`
@@ -162,14 +164,39 @@ _roadmap from https://neetcode.io/roadmap_
   - `Hard`、`O(n)`
   - Tags: `Array`、`String`、`Depth-First Search`、`Design`、`Backtracking`、`Trie`、`Matrix`
 
-### Graphs
+### Graphs (0/13) | ★ ★ ★ ★ ★
+---
 - 133 - Clone Graph [[link](https://leetcode.com/problems/clone-graph/description/)]
-  - `Medium`、`O(n)`
+  - `Medium`
   - Tags: `Hash Table`、`Depth-First Search`、`Breadth-First Search`、`Graph`
+- 200 - Number of Islands [[link](https://leetcode.com/problems/number-of-islands/description/)]
+  - `Medium`
+  - Tags: `Array`、`Depth-First Search`、`Breadth-First Search`、`Union Find`、`Matrix`
+- 695 - Max Area of Island [[link](https://leetcode.com/problems/max-area-of-island/description/)]
+  - `Medium`
+  - Tags: `Array`、`Depth-First Search`、`Breadth-First Search`、`Union Find`、`Matrix`
 
-### Advanced Graphs
+### Advanced Graphs (0/6) |  ★ ★ 
+---
+- 743 - Network Delay Time [[link](https://leetcode.com/problems/network-delay-time/description/)]
+  - `Medium`
+  - Tags: `Depth-First Search`、`Breadth-First Search`、`Graph`、`Heap (Priority Queue)`、`Shortest Path`
+- 787 - Cheapest Flights Within K Stops [[link](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)]
+  - `Medium`
+  - Tags: `Dynamic Programming`、`Depth-First Search`、`Breadth-First Search`、`Graph`、`Heap (Priority Queue)`、`Shortest Path`
+- 1584 - Min Cost to Connect All Points [[link](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)]
+  - `Medium`
+  - Tags: `Array`、`Union Find`、`Graph`、`Minimum Spanning Tree`
+- 🔒 269 - Alien Dictionary [[link](https://leetcode.com/problems/alien-dictionary/)] 
+  - `Hard`
+- 332. Reconstruct Itinerary [[link](https://leetcode.com/problems/reconstruct-itinerary/description/)]
+  - `Hard`
+  - Tags: `Depth-First Search`、`Graph`、`Eulerian Circuit`
+- 778 - Swim in Rising Water [[link](https://leetcode.com/problems/swim-in-rising-water/description/)]
+  - `Hard`
+  - Tags: `Array`、`Binary Search`、`Depth-First Search`、`Breadth-First Search`、`Union Find`、`Heap (Priority Queue)`、`Matrix`
 
-### 1-D DP | ★ ★ ★ 
+### 1-D DP  (2/12) | ★ ★ ★
 - ★ 70 - Climbing Stairs [[link](https://leetcode.com/problems/climbing-stairs)]
   - `Easy`、`O(n)`
   - Tags: `Math`、`Dynamic Programming`、`Memoization`
@@ -178,20 +205,124 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(n)`
   - Tags: `Array`、`Dynamic Programming`
   - Note: 概念和 "70 - Climbing Stairs" 差不多，只是要多一個取最小值的動作
+---
+- 198 - House Robber [[link](https://leetcode.com/problems/house-robber/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`
+- 213 - House Robber II [[link](https://leetcode.com/problems/house-robber-ii/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`
+- 5 - Longest Palindromic Substring [[link](https://leetcode.com/problems/longest-palindromic-substring/description/)]
+  - `Medium`
+  - Tags: `Two Pointers`、`String`、`Dynamic Programming`
+- 647 - Palindromic Substrings [[link](https://leetcode.com/problems/palindromic-substrings/description/)]
+  - `Medium`
+  - Tags: `Two Pointers`、`String`、`Dynamic Programming`
+- 91 - Decode Ways [[link](https://leetcode.com/problems/decode-ways/description/)]
+  - `Medium`
+  - Tags: `String`、`Dynamic Programming`
+- 322 - Coin Change [[link](https://leetcode.com/problems/coin-change/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`、`Breadth-First Search`
+- 152 - Maximum Product Subarray [[link](https://leetcode.com/problems/maximum-product-subarray/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`
+- 139 - Word Break [[link](https://leetcode.com/problems/word-break/description/)]
+  - `Medium`
+  - Tags: `Array`、`Hash Table`、`String`、`Dynamic Programming`、`Trie`、`Memoization`
+- 300 - Longest Increasing Subsequence [[link](https://leetcode.com/problems/longest-increasing-subsequence/description/)]
+  - `Medium`
+  - Tags: `Array`、`Binary Search`、`Dynamic Programming`
+- 416. Partition Equal Subset Sum [[link](https://leetcode.com/problems/partition-equal-subset-sum/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`
 
-### 2-D DP
+### 2-D DP (0/11) |  ★ ★ ★
+- 62 - Unique Paths [[link](https://leetcode.com/problems/unique-paths/description/)]
+  - `Medium`
+  - Tags: `Math`、`Dynamic Programming`、`Combinatorics`
+- 1143 - Longest Common Subsequence [[link](https://leetcode.com/problems/longest-common-subsequence/description/)]
+  - `Medium`
+  - Tags: `String`、`Dynamic Programming`
+- 309. Best Time to Buy and Sell Stock with Cooldown [[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`
+- 518 - Coin Change II [[link](https://leetcode.com/problems/coin-change-ii/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`
+- 494 - Target Sum [[link](https://leetcode.com/problems/target-sum/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`、`Backtracking`
+- 97 - Interleaving String [[link](https://leetcode.com/problems/interleaving-string/description/)]
+  - `Medium`
+  - Tags: `String`、`Dynamic Programming`
+- 72 - Edit Distance [[link](https://leetcode.com/problems/edit-distance/description/)]
+  - `Medium`
+  - Tags: `String`、`Dynamic Programming`
+- 10 - Regular Expression Matching [[link](https://leetcode.com/problems/regular-expression-matching/description/)]
+  - `Hard`
+  - Tags: `String`、`Dynamic Programming`、`Recursion`
+- 115 - Distinct Subsequences [[link](https://leetcode.com/problems/distinct-subsequences/description/)]
+  - `Hard`
+  - Tags: `String`、`Dynamic Programming`
+- 312 - Burst Balloons [[link](https://leetcode.com/problems/burst-balloons/description/)]
+  - `Hard`
+  - Tags: `Array`、`Dynamic Programming`
+- 329 - Longest Increasing Path in a Matrix [[link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)]
+  - `Hard`
+  - Tags: `Array`、`Dynamic Programming`、`Depth-First Search`、`Breadth-First Search`、`Graph`、`Topological Sort`、`Memoization`、`Matrix`
 
-### Greedy
+### Greedy (0/8) |  ★
+- 53 - Maximum Subarray [[link](https://leetcode.com/problems/maximum-subarray/description/)]
+  - `Medium`
+  - Tags: `Array`、`Divide and Conquer`、`Dynamic Programming`
+- 55 - Jump Game [[link](https://leetcode.com/problems/jump-game/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`、`Greedy`
+- 45 - Jump Game II [[link](https://leetcode.com/problems/jump-game-ii/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`、`Greedy`
+- 134 - Gas Station [[link](https://leetcode.com/problems/gas-station/description/)]
+  - `Medium`
+  - Tags: `Array`、`Greedy`
+- 846 - Hand of Straights [[link](https://leetcode.com/problems/hand-of-straights/description/)]
+  - `Medium`
+  - Tags: `Array`、`Hash Table`、`Hash Table`、`Greedy`、`Sorting`
+- 1899 - Merge Triplets to Form Target Triplet [[link](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/description/)]
+  - `Medium`
+  - Tags: `Array`、`Greedy`
+- 763 - Partition Labels [[link](https://leetcode.com/problems/partition-labels/description/)]
+  - `Medium`
+  - Tags: `Hash Table`、`Two Pointers`、`String`、`Greedy`
+- 678. Valid Parenthesis String [[link](https://leetcode.com/problems/valid-parenthesis-string/description/)]
+  - `Medium`
+  - Tags: `String`、`Dynamic Programming`、`Stack`、`Greedy`
 
-### Intervals
+### Intervals (0/6)
+- 57 - Insert Interval [[link](https://leetcode.com/problems/insert-interval/description/)]
+  - `Medium`
+  - Tags: `Array`
+- 56 - Merge Intervals [[link](https://leetcode.com/problems/merge-intervals/description/)]
+  - `Medium`
+  - Tags: `Array`、`Sorting`
+- 435 - Non-overlapping Intervals [[link](https://leetcode.com/problems/non-overlapping-intervals/description/)]
+  - `Medium`
+  - Tags: `Array`、`Dynamic Programming`、`Greedy`、`Sorting`
+- 🔒 252 - Meeting Rooms [[link](https://leetcode.com/problems/meeting-rooms/)]
+  - `Easy`
+- 🔒 253 - Meeting Rooms II [[link](https://leetcode.com/problems/meeting-rooms-ii/)]
+  - `Medium`
+- 1851 - Minimum Interval to Include Each Query [[link](https://leetcode.com/problems/minimum-interval-to-include-each-query/description/)]
+  - `Hard`
+  - Tags: `Array`、`Binary Search`、`Line Sweep`、`Sorting`、`Heap (Priority Queue)`
 
-### Bit Manipulation
+### Bit Manipulation (1/7)
 - 136 - Single Number [[link](https://leetcode.com/problems/single-number)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Bit Manipulation`
 
 
-### Math & Geometry
+### Math & Geometry (2/8)
 - ★ 202 - Happy Number [[link](https://leetcode.com/problems/happy-number)]
   - `Easy`、`O(log n) 這是在數理上被認為進入循環的步數`
   - Tags: `Hash Table`、`Math`、`Two Pointers`
@@ -201,7 +332,7 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Array`、`Math`
 
 
-### Daily
+### Daily (8/8)
 - 1352 - Product of the Last K Numbers  [[link](https://leetcode.com/problems/product-of-the-last-k-numbers/)]
   - `Medium`、`O(nlogm)`
   - Tags: `Array`、`Math`、`Design`、`Data Stream`、`Prefix Sum`
