@@ -50,7 +50,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 15 - 3Sum [[link](https://leetcode.com/problems/3sum/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Two Pointers`、`Sorting`
-- 42. Trapping Rain Water [[link](https://leetcode.com/problems/trapping-rain-water/description/)]
+- 42 - Trapping Rain Water [[link](https://leetcode.com/problems/trapping-rain-water/description/)]
   - `Hard`、`O(n)`
   - Tags: `Array`、`Two Pointers`、`Dynamic Programming`、`Stack`、`Monotonic Stack`
 - 167 - Two Sum II - Input Array Is Sorted [[link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)]
