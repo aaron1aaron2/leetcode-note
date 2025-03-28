@@ -146,17 +146,26 @@ _roadmap from https://neetcode.io/roadmap_
 - 39 - Combination Sum  [[link](https://leetcode.com/problems/combination-sum/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Backtracking`
-- 40. Combination Sum II  [[link](https://leetcode.com/problems/combination-sum-ii/description/)]
+- 40 - Combination Sum II  [[link](https://leetcode.com/problems/combination-sum-ii/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Backtracking`
 
 ### Tries
 ---
-- 208. Implement Trie (Prefix Tree) [[link](https://leetcode.com/problems/implement-trie-prefix-tree/description/)]
+- 208 - Implement Trie (Prefix Tree) [[link](https://leetcode.com/problems/implement-trie-prefix-tree/description/)]
   - `Medium`、`O(n)`
   - Tags: `Hash Table`、`String`、`Design`、`Trie`
+- 211 - Design Add and Search Words Data Structure [[link](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `String`、`Depth-First Search`、`Design`、`Trie`
+- 212 - Word Search II [[link](https://leetcode.com/problems/word-search-ii/description/)]
+  - `Hard`、`O(n)`
+  - Tags: `Array`、`String`、`Depth-First Search`、`Design`、`Backtracking`、`Trie`、`Matrix`
 
 ### Graphs
+- 133 - Clone Graph [[link](https://leetcode.com/problems/clone-graph/description/)]
+  - `Medium`、`O(n)`
+  - Tags: `Hash Table`、`Depth-First Search`、`Breadth-First Search`、`Graph`
 
 ### Advanced Graphs
 
