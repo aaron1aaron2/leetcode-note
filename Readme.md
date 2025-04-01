@@ -124,11 +124,12 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Tree`、`Depth-First Search`、`Binary Tree`
   - Note: 只要記錄(遞迴回傳 or 全域變數)是否結果就好。寫法和上面 _Diameter of Binary Tree_、_Maximum Depth of Binary Tree_ 差不多
 - 100 - Same Tree [[link](https://leetcode.com/problems/same-tree)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
+  - Notes: 同時對兩棵樹進行遞迴探索，只要有不一致的回傳 false。
 - 572 - Subtree of Another Tree [[link](https://leetcode.com/problems/subtree-of-another-tree)]
-  - `Easy`
-  - Tags:
+  - `Easy`、`O(n)`
+  - Tags: `Tree`、`Depth-First Search`、`String Matching`、`Binary Tree`、`Hash Function`
 
 ### Heap / Priority Queue (2/7) | ★ ★ ★ 
 - 703 - Kth Largest Element in a Stream [[link](https://leetcode.com/problems/kth-largest-element-in-a-stream)]
