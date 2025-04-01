@@ -130,6 +130,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 572 - Subtree of Another Tree [[link](https://leetcode.com/problems/subtree-of-another-tree)]
   - `Easy`、`O(n)`
   - Tags: `Tree`、`Depth-First Search`、`String Matching`、`Binary Tree`、`Hash Function`
+---
 
 ### Heap / Priority Queue (2/7) | ★ ★ ★ 
 - 703 - Kth Largest Element in a Stream [[link](https://leetcode.com/problems/kth-largest-element-in-a-stream)]
@@ -140,6 +141,7 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(NlogN)`
   - Tags: `Array`、`Heap (Priority Queue)`
   - Note: python 的 heapq 為 min heap，本題需要 max heap，所以全程將石頭重量視為負數(越重得越小)，進行實作，最後才轉換成正數。
+---
 
 ### Backtracking (0/9) | ★ ★ ★ ★ ★ 
 ---
