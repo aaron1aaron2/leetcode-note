@@ -106,7 +106,7 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `Linked List`、`Recursion`
   - Note: Linked List 的基本操作，可以嘗試看看 Recursion 的方法。
 
-### Trees (4/15) | ★ ★
+### Trees (6/15) | ★ ★
 - 226 - Invert Binary Tree [[link](https://leetcode.com/problems/invert-binary-tree)]
   - `Easy`、`O(n)`
   - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
@@ -130,6 +130,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 572 - Subtree of Another Tree [[link](https://leetcode.com/problems/subtree-of-another-tree)]
   - `Easy`、`O(n)`
   - Tags: `Tree`、`Depth-First Search`、`String Matching`、`Binary Tree`、`Hash Function`
+  - Notes: _100 - Same Tree_ 的延伸，遊走 + 判斷兩個 subtree 是否一致。
 ---
 
 ### Heap / Priority Queue (2/7) | ★ ★ ★ 
