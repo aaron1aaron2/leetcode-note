@@ -28,3 +28,17 @@ class Solution:
             return False
             
         return kmp(serialize(root), serialize(subRoot))
+
+# Simplified version | by https://leetcode.com/problems/subtree-of-another-tree/solutions/6313039/animated-video-easy-o-n-m-serialized-optimal-solution-visualized/
+"""
+class Solution:
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        def serialize(node):
+            if not node:
+                return "N"
+            return f"({node.val},{serialize(node.left)},{serialize(node.right)})"
+        
+        rootSerialized = serialize(root)
+        subRootSerialized = serialize(subRoot)
+        return subRootSerialized in rootSerialized
+"""
