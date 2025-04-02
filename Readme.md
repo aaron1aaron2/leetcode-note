@@ -127,10 +127,12 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(n)`
   - Tags: `Tree`、`Depth-First Search`、`Breadth-First Search`、`Binary Tree`
   - Notes: 同時對兩棵樹進行遞迴探索，只要有不一致的回傳 false。
-- 572 - Subtree of Another Tree [[link](https://leetcode.com/problems/subtree-of-another-tree)]
-  - `Easy`、`O(n)`
+- ★ 572 - Subtree of Another Tree [[link](https://leetcode.com/problems/subtree-of-another-tree)]
+  - `Easy`、`O(m + n)`
   - Tags: `Tree`、`Depth-First Search`、`String Matching`、`Binary Tree`、`Hash Function`
-  - Notes: _100 - Same Tree_ 的延伸，遊走 + 判斷兩個 subtree 是否一致。
+  - Notes: _100 - Same Tree_ 的延伸，遊走 + 判斷兩個 subtree 是否一致，較為直接但時間複雜度為`O(m × n)`。以下為兩種較好解法，可以將時間複雜度縮減至 `O(m + n)`:
+    - 哈希法：將每棵子樹轉為一個唯一的哈希值（用元組 (val, left_hash, right_hash) 表示）。遍歷主樹 s，記錄所有子樹的哈希值到字典 memo，然後檢查目標子樹 t 的哈希值是否在其中。
+    - 序列化 + KMP：將主樹 root 和目標子樹 subRoot 序列化為字串（用前序遍歷）。用 KMP 演算法檢查 subRoot 的字串是否是 root 字串的子字串。
 ---
 
 ### Heap / Priority Queue (2/7) | ★ ★ ★ 
