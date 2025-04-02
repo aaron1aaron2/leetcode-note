@@ -11,7 +11,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 1 - Two Sum  [[link](https://leetcode.com/problems/two-sum/)]
   - `Easy`、`O(n) by hash table`
   - Tags: `Array`、`Hash Table`
-- 36 - Valid Sudoku [[link](https://leetcode.com/problems/valid-sudoku/description/)]
+- ★ 36 - Valid Sudoku [[link](https://leetcode.com/problems/valid-sudoku/description/)]
   - `Medium`、`O(81) → O(1)`
   - Tags: `Array`、`Matrix`、`Hash Table`
   - Note: 使用三個 hashmap 紀錄 rows、cols 和 boxs，三種資訊，判定數獨中這些區域不能有重複數字。一次 9*9 的跌代就可以驗證是否符合數獨標準。
