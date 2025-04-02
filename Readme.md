@@ -7,10 +7,14 @@
 _roadmap from https://neetcode.io/roadmap_
 
 ## Topic
-### Arrays & Hashing (3/9)
+### Arrays & Hashing (4/9)
 - 1 - Two Sum  [[link](https://leetcode.com/problems/two-sum/)]
   - `Easy`、`O(n) by hash table`
   - Tags: `Array`、`Hash Table`
+- 36 - Valid Sudoku [[link](https://leetcode.com/problems/valid-sudoku/description/)]
+  - `Medium`、`O(81) → O(1)`
+  - Tags: `Array`、`Matrix`、`Hash Table`
+  - Note: 使用三個 hashmap 紀錄 rows、cols 和 boxs，三種資訊，判定數獨中這些區域不能有重複數字。一次 9*9 的跌代就可以驗證是否符合數獨標準。
 - 217 - Contains Duplicate [[link](https://leetcode.com/problems/contains-duplicate)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Hash Table`、`Sorting`
@@ -20,9 +24,6 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `String`、`Hash Table`、`Sorting`
   - Notes: 直接使用 sorting 後比對兩字串是最直觀的方式，但是效率不好。這題使用 hash map 去解比較快。
 ---
-- 36 - Valid Sudoku [[link](https://leetcode.com/problems/valid-sudoku/description/)]
-  - `Medium`、`O(n)`
-  - Tags: `Array`、`Matrix`、`Hash Table`
 - 49 - Group Anagrams [[link](https://leetcode.com/problems/group-anagrams/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`String`、`Hash Table`、`Sorting`
