@@ -18,7 +18,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 49 - Group Anagrams [[link](https://leetcode.com/problems/group-anagrams/)]
   - `Medium`、`O(m*nlogn)`
   - Tags: `Array`、`String`、`Hash Table`、`Sorting`
-  - Notes: 簡單使用 sort 的字做為 key，剩下的字排序過比對並加到對應組別，最後再輸出成對應格式。使用 collections 的 defaultdict，可以在碰到未存在的 key 時預設一個空 list。
+  - Notes: 簡單使用 sort 的字做為 key，剩下的字排序過比對並加到對應組別，最後再輸出成對應格式。使用 collections 的 defaultdict，可以在碰到未存在的 key 時預設一個空 list。在輸出格式上要求較複雜，如果像 `242 - Valid Anagram` 直接使用 hashmap 計算後使用 dict 比對，較不直觀且會有額外的格式轉換成本。
 - 217 - Contains Duplicate [[link](https://leetcode.com/problems/contains-duplicate)]
   - `Easy`、`O(n)`
   - Tags: `Array`、`Hash Table`、`Sorting`
