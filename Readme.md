@@ -45,10 +45,11 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(n)`
   - Tags: `Two Pointers`、`String`
   - Note: 換個角度想可以更輕鬆優雅的解決問題，像是在本問題上判斷回文其實可以直接反轉後判斷兩字串是否一致。不一定要透過 pointer 方式去處理
----
 - 11 - Container With Most Water [[link](https://leetcode.com/problems/container-with-most-water/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Two Pointers`、`Greedy`
+  - Note: 使用 two pointer，主要觀念是從最寬的兩端(左右開始)，我們只需要確保較高的邊維持住就好，較低的一邊就忘另一側靠近。直接使用 if - else 會比 min 和 max 快。
+---
 - 15 - 3Sum [[link](https://leetcode.com/problems/3sum/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Two Pointers`、`Sorting`
