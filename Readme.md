@@ -70,6 +70,7 @@ _roadmap from https://neetcode.io/roadmap_
 - 3. Longest Substring Without Repeating Characters [[link](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)]
   - `Medium`、`O(n)`
   - Tags: `Hash Table`、`String`、`Sliding Window`
+  - Note: 標準 two pointer 解決
 ---
 - 424. Longest Repeating Character Replacement [[link](https://leetcode.com/problems/longest-repeating-character-replacement/description/)]
   - `Medium`、`O(n)`
