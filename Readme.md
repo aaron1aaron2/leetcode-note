@@ -27,10 +27,11 @@ _roadmap from https://neetcode.io/roadmap_
   - `Easy`、`O(n)`
   - Tags: `String`、`Hash Table`、`Sorting`
   - Notes: 直接使用 sorting 後比對兩字串是最直觀的方式，但是效率不好。這題使用 hash map 去解比較快。
----
 - 128 - Longest Consecutive Sequence [[link](https://leetcode.com/problems/longest-consecutive-sequence/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Hash Table`、`Union Find`
+  - Note: None
+---
 - 238 - Product of Array Except Self [[link](https://leetcode.com/problems/product-of-array-except-self/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Prefix Sum`
