@@ -7,7 +7,7 @@
 _roadmap from https://neetcode.io/roadmap_
 
 ## Topic
-### Arrays & Hashing (5/9)
+### Arrays & Hashing (6/9)
 - 1 - Two Sum  [[link](https://leetcode.com/problems/two-sum/)]
   - `Easy`、`O(n) by hash table`
   - Tags: `Array`、`Hash Table`
