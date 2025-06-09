@@ -92,22 +92,22 @@ _roadmap from https://neetcode.io/roadmap_
   - Tags: `String`、`Stack`
   - Note: 此題目在不限制先進後出（First In Last Out，FILO）時，使用 hash table 的方式較直觀，EX. `input: "([)]" Output: True`。而在本題需要確保括號的開與關需要 FILO，則較適合使用 stack 的方式去處理。
 ---
-- 150. Evaluate Reverse Polish Notation [[link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)]
+- 150 - Evaluate Reverse Polish Notation [[link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Math`、`Stack`
-- 155. Min Stack [[link](https://leetcode.com/problems/min-stack/description/)]
+- 155 - Min Stack [[link](https://leetcode.com/problems/min-stack/description/)]
   - `Medium`、`O(n)`
   - Tags: `Design`、`Stack`
-- 22. Generate Parentheses [[link](https://leetcode.com/problems/generate-parentheses/description/)]
+- 22 - Generate Parentheses [[link](https://leetcode.com/problems/generate-parentheses/description/)]
   - `Medium`、`O(n)`
   - Tags: `String`、`Dynamic Programming`、`Backtracking`
-- 739. Daily Temperatures [[link](https://leetcode.com/problems/daily-temperatures/description/)]
+- 739 - Daily Temperatures [[link](https://leetcode.com/problems/daily-temperatures/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Stack`、`Monotonic Stack`
-- 853. Car Fleet [[link](https://leetcode.com/problems/car-fleet/description/)]
+- 853 - Car Fleet [[link](https://leetcode.com/problems/car-fleet/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Stack`、`Sorting`、`Monotonic Stack`
-- 84. Largest Rectangle in Histogram [[link](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)]
+- 84 - Largest Rectangle in Histogram [[link](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)]
   - `Hard`、`O(n)`
   - Tags: `Array`、`Stack`、`Monotonic Stack`
 
