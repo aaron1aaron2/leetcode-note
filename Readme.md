@@ -30,7 +30,9 @@ _roadmap from https://neetcode.io/roadmap_
 - 128 - Longest Consecutive Sequence [[link](https://leetcode.com/problems/longest-consecutive-sequence/description/)]
   - `Medium`、`O(n)`
   - Tags: `Array`、`Hash Table`、`Union Find`
-  - Note: None
+  - Note:
+    1. 直接 sort 後，逐步判斷。
+    2. 使用 set(移出重複值)，使用 (n-1) 判斷，找出各潛在起始點並計算連續長度。
 ---
 - 238 - Product of Array Except Self [[link](https://leetcode.com/problems/product-of-array-except-self/description/)]
   - `Medium`、`O(n)`
